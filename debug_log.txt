@@ -1,0 +1,80 @@
+16:16:12.574: ESC KEY PRESSED - Menu visible: False
+16:16:12.575: ESC: Menu not visible, ignoring
+16:16:13.088: ESC KEY PRESSED - Menu visible: False
+16:16:13.088: ESC: Menu not visible, ignoring
+16:16:15.021: MENU OPENED - ShowMainMenu() called
+16:16:15.023: MENU CLOSED - HideMenu() called
+16:16:15.023: TAB KEY PRESSED - toggling menu
+16:16:15.023: MENU OPENED - ShowMainMenu() called
+16:16:16.838: MENU CLOSED - HideMenu() called
+16:16:16.839: MENU OPENED - ShowMainMenu() called
+16:16:16.839: TAB KEY PRESSED - toggling menu
+16:16:16.840: MENU CLOSED - HideMenu() called
+16:16:17.804: MENU OPENED - ShowMainMenu() called
+16:16:17.814: MENU CLOSED - HideMenu() called
+16:16:17.815: TAB KEY PRESSED - toggling menu
+16:16:17.815: MENU OPENED - ShowMainMenu() called
+16:16:18.054: MENU CLOSED - HideMenu() called
+16:16:18.055: ESC KEY PRESSED - Menu visible: False
+16:16:18.055: ESC: Menu not visible, ignoring
+16:20:42.240: MENU OPENED - ShowMainMenu() called
+16:20:42.241: MENU CLOSED - HideMenu() called
+16:20:42.242: TAB KEY PRESSED - toggling menu
+16:20:42.242: MENU OPENED - ShowMainMenu() called
+16:20:43.256: MENU CLOSED - HideMenu() called
+16:20:43.257: MENU OPENED - ShowMainMenu() called
+16:20:43.257: TAB KEY PRESSED - toggling menu
+16:20:43.258: MENU CLOSED - HideMenu() called
+16:21:31.973: MENU OPENED - ShowMainMenu() called
+16:21:31.974: MENU CLOSED - HideMenu() called
+16:21:31.974: TAB KEY PRESSED - toggling menu
+16:21:31.975: MENU OPENED - ShowMainMenu() called
+16:21:32.490: MENU CLOSED - HideMenu() called
+16:21:32.491: MENU OPENED - ShowMainMenu() called
+16:21:32.491: TAB KEY PRESSED - toggling menu
+16:21:32.492: MENU CLOSED - HideMenu() called
+16:31:31.658: ESC KEY PRESSED - Menu visible: False
+16:31:31.659: ESC: Menu not visible, ignoring
+16:31:32.740: MENU OPENED - ShowMainMenu() called
+16:31:32.741: MENU CLOSED - HideMenu() called
+16:31:32.741: TAB KEY PRESSED - toggling menu
+16:31:32.742: MENU OPENED - ShowMainMenu() called
+16:31:34.056: MENU CLOSED - HideMenu() called
+16:31:34.058: MENU OPENED - ShowMainMenu() called
+16:31:34.058: TAB KEY PRESSED - toggling menu
+16:31:34.059: MENU CLOSED - HideMenu() called
+16:34:27.738: ESC KEY PRESSED - Menu visible: False
+16:34:27.739: ESC: Menu not visible, ignoring
+16:34:30.369: MENU OPENED - ShowMainMenu() called
+16:34:30.370: MENU CLOSED - HideMenu() called
+16:34:30.371: TAB KEY PRESSED - toggling menu
+16:34:30.371: MENU OPENED - ShowMainMenu() called
+16:34:32.002: MENU CLOSED - HideMenu() called
+16:34:32.003: MENU OPENED - ShowMainMenu() called
+16:34:32.004: TAB KEY PRESSED - toggling menu
+16:34:32.004: MENU CLOSED - HideMenu() called
+16:36:56.206: MENU OPENED - ShowMainMenu() called
+16:36:56.209: MENU CLOSED - HideMenu() called
+16:36:56.209: TAB KEY PRESSED - toggling menu
+16:36:56.210: MENU OPENED - ShowMainMenu() called
+16:37:10.404: MENU CLOSED - HideMenu() called
+16:37:10.405: ESC KEY PRESSED - Menu visible: False
+16:37:10.405: ESC: Menu not visible, ignoring
+16:44:49.224: ESC KEY PRESSED - Menu visible: False
+16:44:49.226: ESC: Menu not visible, ignoring
+16:44:50.107: MENU OPENED - ShowMainMenu() called
+16:44:50.108: MENU CLOSED - HideMenu() called
+16:44:50.109: TAB KEY PRESSED - toggling menu
+16:44:50.109: MENU OPENED - ShowMainMenu() called
+16:44:51.274: MENU CLOSED - HideMenu() called
+16:44:51.275: MENU OPENED - ShowMainMenu() called
+16:44:51.275: TAB KEY PRESSED - toggling menu
+16:44:51.275: MENU CLOSED - HideMenu() called
+16:46:36.502: MENU OPENED - ShowMainMenu() called
+16:46:36.505: MENU CLOSED - HideMenu() called
+16:46:36.505: TAB KEY PRESSED - toggling menu
+16:46:36.505: MENU OPENED - ShowMainMenu() called
+16:46:36.934: MENU CLOSED - HideMenu() called
+16:46:36.935: MENU OPENED - ShowMainMenu() called
+16:46:36.935: TAB KEY PRESSED - toggling menu
+16:46:36.936: MENU CLOSED - HideMenu() called

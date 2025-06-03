@@ -1,0 +1,41 @@
+{
+  "id": "station",
+  "name": "Train Station",
+  "description": "Loading and unloading point for trains. Connects buildings to the rail network.",
+  "category": "transport",
+  "size": {
+    "width": 1,
+    "height": 4,
+    "shape": "rectangle"
+  },
+  "cost": 1200,
+  "construction_time": 8.0,
+  "placement_rules": {
+    "allowed_terrain": ["Grass", "Dirt"],
+    "forbidden_terrain": ["Water", "Mountain"],
+    "requires_road_access": false,
+    "min_distance_to_water": 1,
+    "max_distance_to_road": 8,
+    "buildable": true
+  },
+  "production": {
+    "input_resources": [],
+    "output_resources": [],
+    "production_rate": 0.0,
+    "efficiency": 1.0,
+    "power_required": 0
+  },
+  "storage": {
+    "input_capacity": 100,
+    "output_capacity": 100,
+    "accepted_resources": ["steel", "grain", "food", "iron_ore"],
+    "stored_resources": ["steel", "grain", "food", "iron_ore"]
+  },
+  "visual": {
+    "color": "#8B4513",
+    "texture": null,
+    "animation": null,
+    "smoke_effect": false
+  },
+  "rotation_allowed": true
+}

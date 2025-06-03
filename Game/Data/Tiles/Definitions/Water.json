@@ -1,0 +1,22 @@
+{
+  "id": "water",
+  "tileType": "Water",
+  "properties": {
+    "buildable": false,
+    "movementCost": 999.0,
+    "fertility": 0.0,
+    "resourceProduction": ["fish"],
+    "allowedBuildings": ["dock", "bridge"],
+    "terrain": "water",
+    "passable": false
+  },
+  "rendering": {
+    "color": "#1E90FF",
+    "texture": "water_tile"
+  },
+  "gameplay": {
+    "constructionCost": 0,
+    "maintenanceCost": 0,
+    "maxBuildings": 0
+  }
+}

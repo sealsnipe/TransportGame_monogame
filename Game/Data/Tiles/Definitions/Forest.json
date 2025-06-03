@@ -1,0 +1,22 @@
+{
+  "id": "forest",
+  "tileType": "Forest",
+  "properties": {
+    "buildable": false,
+    "movementCost": 2.0,
+    "fertility": 0.6,
+    "resourceProduction": ["wood"],
+    "allowedBuildings": ["sawmill"],
+    "terrain": "forest",
+    "passable": true
+  },
+  "rendering": {
+    "color": "#006400",
+    "texture": "forest_tile"
+  },
+  "gameplay": {
+    "constructionCost": 0,
+    "maintenanceCost": 0,
+    "maxBuildings": 1
+  }
+}

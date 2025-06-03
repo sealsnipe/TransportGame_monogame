@@ -1,0 +1,22 @@
+{
+  "id": "beach",
+  "tileType": "Beach",
+  "properties": {
+    "buildable": false,
+    "movementCost": 1.2,
+    "fertility": 0.2,
+    "resourceProduction": [],
+    "allowedBuildings": ["dock", "lighthouse"],
+    "terrain": "coast",
+    "passable": true
+  },
+  "rendering": {
+    "color": "#F4A460",
+    "texture": "beach_tile"
+  },
+  "gameplay": {
+    "constructionCost": 0,
+    "maintenanceCost": 0,
+    "maxBuildings": 1
+  }
+}

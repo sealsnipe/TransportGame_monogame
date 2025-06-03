@@ -1,0 +1,22 @@
+{
+  "id": "grass",
+  "tileType": "Grass",
+  "properties": {
+    "buildable": true,
+    "movementCost": 1.0,
+    "fertility": 0.8,
+    "resourceProduction": [],
+    "allowedBuildings": ["farm", "depot", "station"],
+    "terrain": "land",
+    "passable": true
+  },
+  "rendering": {
+    "color": "#228B22",
+    "texture": "grass_tile"
+  },
+  "gameplay": {
+    "constructionCost": 0,
+    "maintenanceCost": 0,
+    "maxBuildings": 1
+  }
+}

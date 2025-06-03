@@ -1,0 +1,22 @@
+{
+  "id": "deepwater",
+  "tileType": "DeepWater",
+  "properties": {
+    "buildable": false,
+    "movementCost": 999.0,
+    "fertility": 0.0,
+    "resourceProduction": ["fish"],
+    "allowedBuildings": [],
+    "terrain": "deep_water",
+    "passable": false
+  },
+  "rendering": {
+    "color": "#000080",
+    "texture": "deepwater_tile"
+  },
+  "gameplay": {
+    "constructionCost": 0,
+    "maintenanceCost": 0,
+    "maxBuildings": 0
+  }
+}

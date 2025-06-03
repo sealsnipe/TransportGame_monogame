@@ -1,0 +1,18 @@
+{
+  "id": "food",
+  "name": "Food",
+  "description": "Processed food products made from grain. Essential for feeding populations and workers.",
+  "category": "finished",
+  "base_value": 15,
+  "stack_size": 120,
+  "visual": {
+    "color": "#FF6347",
+    "icon": "food_icon",
+    "texture": null
+  },
+  "transport": {
+    "weight": 1.0,
+    "volume": 1.5,
+    "hazardous": false
+  }
+}

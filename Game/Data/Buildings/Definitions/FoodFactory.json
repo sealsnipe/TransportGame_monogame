@@ -1,0 +1,51 @@
+{
+  "id": "food_factory",
+  "name": "Food Factory",
+  "description": "Processes grain into food products. Requires grain input and produces food output.",
+  "category": "production",
+  "size": {
+    "width": 3,
+    "height": 3,
+    "shape": "rectangle"
+  },
+  "cost": 2200,
+  "construction_time": 12.0,
+  "placement_rules": {
+    "allowed_terrain": ["Grass", "Dirt"],
+    "forbidden_terrain": ["Water", "Mountain"],
+    "requires_road_access": true,
+    "min_distance_to_water": 1,
+    "max_distance_to_road": 5,
+    "buildable": true
+  },
+  "production": {
+    "input_resources": [
+      {
+        "resource_type": "grain",
+        "amount": 2
+      }
+    ],
+    "output_resources": [
+      {
+        "resource_type": "food",
+        "amount": 1
+      }
+    ],
+    "production_rate": 1.2,
+    "efficiency": 0.95,
+    "power_required": 1
+  },
+  "storage": {
+    "input_capacity": 60,
+    "output_capacity": 40,
+    "accepted_resources": ["grain"],
+    "stored_resources": ["food"]
+  },
+  "visual": {
+    "color": "#DAA520",
+    "texture": null,
+    "animation": "working",
+    "smoke_effect": false
+  },
+  "rotation_allowed": true
+}

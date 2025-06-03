@@ -1,0 +1,46 @@
+{
+  "id": "mine",
+  "name": "Mine",
+  "description": "Extracts iron ore from mountain terrain. Must be placed on or near mountains.",
+  "category": "resource",
+  "size": {
+    "width": 2,
+    "height": 2,
+    "shape": "rectangle"
+  },
+  "cost": 1500,
+  "construction_time": 12.0,
+  "placement_rules": {
+    "allowed_terrain": ["Mountain", "Hills"],
+    "forbidden_terrain": ["Water", "Farmland"],
+    "requires_road_access": false,
+    "min_distance_to_water": 1,
+    "max_distance_to_road": 8,
+    "buildable": true
+  },
+  "production": {
+    "input_resources": [],
+    "output_resources": [
+      {
+        "resource_type": "iron_ore",
+        "amount": 1
+      }
+    ],
+    "production_rate": 0.8,
+    "efficiency": 1.0,
+    "power_required": 0
+  },
+  "storage": {
+    "input_capacity": 0,
+    "output_capacity": 80,
+    "accepted_resources": [],
+    "stored_resources": ["iron_ore"]
+  },
+  "visual": {
+    "color": "#696969",
+    "texture": null,
+    "animation": null,
+    "smoke_effect": true
+  },
+  "rotation_allowed": true
+}

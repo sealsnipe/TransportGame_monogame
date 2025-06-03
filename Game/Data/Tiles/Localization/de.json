@@ -1,0 +1,102 @@
+{
+  "language": "de",
+  "tiles": {
+    "grass": {
+      "name": "Grasland",
+      "description": "Fruchtbares Grasland, ideal für Landwirtschaft und Weidewirtschaft. Geeignet für die meisten Gebäude.",
+      "properties": {
+        "buildable": "Bebaubar",
+        "fertility": "Fruchtbarkeit",
+        "terrain": "Gelände"
+      }
+    },
+    "water": {
+      "name": "Wasser",
+      "description": "Klares Süßwasser. Unpassierbar für Landfahrzeuge, aber ideal für Schifffahrt und Fischerei.",
+      "properties": {
+        "buildable": "Nicht bebaubar",
+        "terrain": "Wasser"
+      }
+    },
+    "mountain": {
+      "name": "Berg",
+      "description": "Steile Berghänge mit wertvollen Mineralien. Nur für Bergwerke und spezielle Gebäude geeignet.",
+      "properties": {
+        "buildable": "Eingeschränkt bebaubar",
+        "resources": "Eisenerz, Stein"
+      }
+    },
+    "forest": {
+      "name": "Wald",
+      "description": "Dichter Wald mit wertvollen Holzressourcen. Geeignet für Sägewerke und Holzwirtschaft.",
+      "properties": {
+        "buildable": "Eingeschränkt bebaubar",
+        "resources": "Holz"
+      }
+    },
+    "farmland": {
+      "name": "Ackerland",
+      "description": "Fruchtbares Ackerland, perfekt für den Anbau von Getreide und anderen Feldfrüchten.",
+      "properties": {
+        "buildable": "Bebaubar",
+        "fertility": "Sehr hoch"
+      }
+    },
+    "desert": {
+      "name": "Wüste",
+      "description": "Trockene Wüstenlandschaft mit wenig Vegetation. Schwierige Bedingungen für Bau und Landwirtschaft.",
+      "properties": {
+        "buildable": "Eingeschränkt bebaubar",
+        "fertility": "Sehr niedrig"
+      }
+    },
+    "hills": {
+      "name": "Hügel",
+      "description": "Sanfte Hügel mit moderater Steigung. Geeignet für Weidewirtschaft und kleinere Gebäude.",
+      "properties": {
+        "buildable": "Bebaubar",
+        "terrain": "Hügelland"
+      }
+    },
+    "beach": {
+      "name": "Strand",
+      "description": "Sandiger Strand am Wasser. Ideal für Häfen und Erholungseinrichtungen.",
+      "properties": {
+        "buildable": "Eingeschränkt bebaubar",
+        "terrain": "Küste"
+      }
+    },
+    "deepwater": {
+      "name": "Tiefes Wasser",
+      "description": "Tiefe Gewässer für große Schiffe. Unpassierbar für Landfahrzeuge.",
+      "properties": {
+        "buildable": "Nicht bebaubar",
+        "terrain": "Tiefwasser"
+      }
+    },
+    "dirt": {
+      "name": "Erde",
+      "description": "Kahle Erde ohne Vegetation. Günstig zu bebauen, aber wenig fruchtbar.",
+      "properties": {
+        "buildable": "Bebaubar",
+        "fertility": "Niedrig"
+      }
+    },
+    "rail": {
+      "name": "Schiene",
+      "description": "Eisenbahnschienen für den Zugverkehr. Ermöglicht schnellen Transport von Gütern.",
+      "properties": {
+        "buildable": "Nicht bebaubar",
+        "terrain": "Infrastruktur"
+      }
+    },
+    "road": {
+      "name": "Straße",
+      "description": "Befestigte Straße für Fahrzeuge. Verbindet Städte und Industriegebiete.",
+      "properties": {
+        "buildable": "Nicht bebaubar",
+        "terrain": "Infrastruktur"
+      }
+    }
+  }
+}

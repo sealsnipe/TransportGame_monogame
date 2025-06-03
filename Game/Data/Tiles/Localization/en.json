@@ -1,0 +1,102 @@
+{
+  "language": "en",
+  "tiles": {
+    "grass": {
+      "name": "Grassland",
+      "description": "Fertile grassland, ideal for agriculture and livestock. Suitable for most buildings.",
+      "properties": {
+        "buildable": "Buildable",
+        "fertility": "Fertility",
+        "terrain": "Terrain"
+      }
+    },
+    "water": {
+      "name": "Water",
+      "description": "Clear freshwater. Impassable for land vehicles, but ideal for shipping and fishing.",
+      "properties": {
+        "buildable": "Not buildable",
+        "terrain": "Water"
+      }
+    },
+    "mountain": {
+      "name": "Mountain",
+      "description": "Steep mountain slopes with valuable minerals. Only suitable for mines and special buildings.",
+      "properties": {
+        "buildable": "Limited buildable",
+        "resources": "Iron ore, Stone"
+      }
+    },
+    "forest": {
+      "name": "Forest",
+      "description": "Dense forest with valuable timber resources. Suitable for sawmills and forestry.",
+      "properties": {
+        "buildable": "Limited buildable",
+        "resources": "Wood"
+      }
+    },
+    "farmland": {
+      "name": "Farmland",
+      "description": "Fertile farmland, perfect for growing crops and other agricultural products.",
+      "properties": {
+        "buildable": "Buildable",
+        "fertility": "Very high"
+      }
+    },
+    "desert": {
+      "name": "Desert",
+      "description": "Dry desert landscape with little vegetation. Difficult conditions for construction and agriculture.",
+      "properties": {
+        "buildable": "Limited buildable",
+        "fertility": "Very low"
+      }
+    },
+    "hills": {
+      "name": "Hills",
+      "description": "Gentle hills with moderate slopes. Suitable for livestock and smaller buildings.",
+      "properties": {
+        "buildable": "Buildable",
+        "terrain": "Hilly"
+      }
+    },
+    "beach": {
+      "name": "Beach",
+      "description": "Sandy beach by the water. Ideal for ports and recreational facilities.",
+      "properties": {
+        "buildable": "Limited buildable",
+        "terrain": "Coast"
+      }
+    },
+    "deepwater": {
+      "name": "Deep Water",
+      "description": "Deep waters for large ships. Impassable for land vehicles.",
+      "properties": {
+        "buildable": "Not buildable",
+        "terrain": "Deep water"
+      }
+    },
+    "dirt": {
+      "name": "Dirt",
+      "description": "Bare earth without vegetation. Cheap to build on, but not very fertile.",
+      "properties": {
+        "buildable": "Buildable",
+        "fertility": "Low"
+      }
+    },
+    "rail": {
+      "name": "Railway",
+      "description": "Railway tracks for train traffic. Enables fast transport of goods.",
+      "properties": {
+        "buildable": "Not buildable",
+        "terrain": "Infrastructure"
+      }
+    },
+    "road": {
+      "name": "Road",
+      "description": "Paved road for vehicles. Connects cities and industrial areas.",
+      "properties": {
+        "buildable": "Not buildable",
+        "terrain": "Infrastructure"
+      }
+    }
+  }
+}

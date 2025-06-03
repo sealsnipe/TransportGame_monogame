@@ -1,0 +1,22 @@
+{
+  "id": "farmland",
+  "tileType": "Farmland",
+  "properties": {
+    "buildable": true,
+    "movementCost": 1.2,
+    "fertility": 0.95,
+    "resourceProduction": ["wheat", "crops"],
+    "allowedBuildings": ["farm", "barn", "depot"],
+    "terrain": "agricultural",
+    "passable": true
+  },
+  "rendering": {
+    "color": "#FFD700",
+    "texture": "farmland_tile"
+  },
+  "gameplay": {
+    "constructionCost": 0,
+    "maintenanceCost": 0,
+    "maxBuildings": 2
+  }
+}

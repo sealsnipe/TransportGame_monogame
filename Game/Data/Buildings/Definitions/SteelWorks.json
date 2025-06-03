@@ -1,0 +1,51 @@
+{
+  "id": "steel_works",
+  "name": "Steel Works",
+  "description": "Processes iron ore into steel. Requires iron ore input and produces steel output.",
+  "category": "production",
+  "size": {
+    "width": 3,
+    "height": 3,
+    "shape": "rectangle"
+  },
+  "cost": 2500,
+  "construction_time": 15.0,
+  "placement_rules": {
+    "allowed_terrain": ["Grass", "Dirt"],
+    "forbidden_terrain": ["Water", "Mountain", "Farmland"],
+    "requires_road_access": true,
+    "min_distance_to_water": 2,
+    "max_distance_to_road": 5,
+    "buildable": true
+  },
+  "production": {
+    "input_resources": [
+      {
+        "resource_type": "iron_ore",
+        "amount": 3
+      }
+    ],
+    "output_resources": [
+      {
+        "resource_type": "steel",
+        "amount": 1
+      }
+    ],
+    "production_rate": 1.0,
+    "efficiency": 0.9,
+    "power_required": 2
+  },
+  "storage": {
+    "input_capacity": 50,
+    "output_capacity": 50,
+    "accepted_resources": ["iron_ore"],
+    "stored_resources": ["steel"]
+  },
+  "visual": {
+    "color": "#2F4F4F",
+    "texture": null,
+    "animation": "working",
+    "smoke_effect": true
+  },
+  "rotation_allowed": true
+}

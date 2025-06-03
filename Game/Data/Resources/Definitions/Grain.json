@@ -1,0 +1,18 @@
+{
+  "id": "grain",
+  "name": "Grain",
+  "description": "Basic agricultural product harvested from farms. Used to produce food.",
+  "category": "raw",
+  "base_value": 5,
+  "stack_size": 200,
+  "visual": {
+    "color": "#DAA520",
+    "icon": "grain_icon",
+    "texture": null
+  },
+  "transport": {
+    "weight": 0.8,
+    "volume": 1.0,
+    "hazardous": false
+  }
+}

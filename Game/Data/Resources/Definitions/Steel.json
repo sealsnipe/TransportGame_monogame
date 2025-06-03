@@ -1,0 +1,18 @@
+{
+  "id": "steel",
+  "name": "Steel",
+  "description": "High-quality processed steel made from iron ore. Used for advanced construction and manufacturing.",
+  "category": "processed",
+  "base_value": 25,
+  "stack_size": 100,
+  "visual": {
+    "color": "#708090",
+    "icon": "steel_icon",
+    "texture": null
+  },
+  "transport": {
+    "weight": 3.0,
+    "volume": 0.8,
+    "hazardous": false
+  }
+}

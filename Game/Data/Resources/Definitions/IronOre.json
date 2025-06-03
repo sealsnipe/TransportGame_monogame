@@ -1,0 +1,18 @@
+{
+  "id": "iron_ore",
+  "name": "Iron Ore",
+  "description": "Raw iron ore extracted from mines. Essential for steel production.",
+  "category": "raw",
+  "base_value": 8,
+  "stack_size": 150,
+  "visual": {
+    "color": "#8B4513",
+    "icon": "iron_ore_icon",
+    "texture": null
+  },
+  "transport": {
+    "weight": 2.5,
+    "volume": 1.2,
+    "hazardous": false
+  }
+}

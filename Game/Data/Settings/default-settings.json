@@ -1,0 +1,26 @@
+{
+  "display": {
+    "resolutionWidth": 1280,
+    "resolutionHeight": 720,
+    "fullscreen": false,
+    "vSync": true,
+    "uiScale": 1.0
+  },
+  "controls": {
+    "menuKey": "Tab",
+    "menuCloseKey": "Escape",
+    "cameraSpeed": 5.0,
+    "tooltipScale": 1.5
+  },
+  "ui": {
+    "showHUD": true,
+    "showDebugPanel": false,
+    "language": "de"
+  },
+  "audio": {
+    "masterVolume": 0.8,
+    "sfxVolume": 0.6,
+    "musicVolume": 0.4,
+    "muted": false
+  }
+}

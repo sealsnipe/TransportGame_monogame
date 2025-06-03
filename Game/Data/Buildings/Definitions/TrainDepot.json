@@ -1,0 +1,41 @@
+{
+  "id": "train_depot",
+  "name": "Train Depot",
+  "description": "Central hub for train management. Purchase, upgrade, and manage your train fleet.",
+  "category": "transport",
+  "size": {
+    "width": 4,
+    "height": 4,
+    "shape": "rectangle"
+  },
+  "cost": 5000,
+  "construction_time": 20.0,
+  "placement_rules": {
+    "allowed_terrain": ["Grass", "Dirt"],
+    "forbidden_terrain": ["Water", "Mountain", "Farmland"],
+    "requires_road_access": true,
+    "min_distance_to_water": 3,
+    "max_distance_to_road": 3,
+    "buildable": true
+  },
+  "production": {
+    "input_resources": [],
+    "output_resources": [],
+    "production_rate": 0.0,
+    "efficiency": 1.0,
+    "power_required": 1
+  },
+  "storage": {
+    "input_capacity": 200,
+    "output_capacity": 200,
+    "accepted_resources": ["steel", "grain", "food", "iron_ore"],
+    "stored_resources": ["steel", "grain", "food", "iron_ore"]
+  },
+  "visual": {
+    "color": "#4682B4",
+    "texture": null,
+    "animation": null,
+    "smoke_effect": false
+  },
+  "rotation_allowed": true
+}

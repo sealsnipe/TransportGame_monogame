@@ -1,0 +1,22 @@
+{
+  "id": "mountain",
+  "tileType": "Mountain",
+  "properties": {
+    "buildable": false,
+    "movementCost": 5.0,
+    "fertility": 0.1,
+    "resourceProduction": ["iron", "stone"],
+    "allowedBuildings": ["mine"],
+    "terrain": "mountain",
+    "passable": true
+  },
+  "rendering": {
+    "color": "#696969",
+    "texture": "mountain_tile"
+  },
+  "gameplay": {
+    "constructionCost": 0,
+    "maintenanceCost": 0,
+    "maxBuildings": 1
+  }
+}

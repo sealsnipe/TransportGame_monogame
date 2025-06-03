@@ -1,0 +1,22 @@
+{
+  "id": "dirt",
+  "tileType": "Dirt",
+  "properties": {
+    "buildable": true,
+    "movementCost": 1.1,
+    "fertility": 0.3,
+    "resourceProduction": [],
+    "allowedBuildings": ["depot", "factory", "station"],
+    "terrain": "bare_land",
+    "passable": true
+  },
+  "rendering": {
+    "color": "#8B4513",
+    "texture": "dirt_tile"
+  },
+  "gameplay": {
+    "constructionCost": 0,
+    "maintenanceCost": 0,
+    "maxBuildings": 1
+  }
+}

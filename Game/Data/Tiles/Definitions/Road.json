@@ -1,0 +1,22 @@
+{
+  "id": "road",
+  "tileType": "Road",
+  "properties": {
+    "buildable": false,
+    "movementCost": 0.8,
+    "fertility": 0.0,
+    "resourceProduction": [],
+    "allowedBuildings": ["sign", "depot"],
+    "terrain": "infrastructure",
+    "passable": true
+  },
+  "rendering": {
+    "color": "#404040",
+    "texture": "road_tile"
+  },
+  "gameplay": {
+    "constructionCost": 50,
+    "maintenanceCost": 2,
+    "maxBuildings": 1
+  }
+}

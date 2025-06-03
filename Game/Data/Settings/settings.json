@@ -1,0 +1,28 @@
+{
+  "Display": {
+    "ResolutionWidth": 3840,
+    "ResolutionHeight": 2160,
+    "Fullscreen": false,
+    "VSync": true,
+    "UIScale": 1.2249999
+  },
+  "Controls": {
+    "MenuKey": "Tab",
+    "MenuCloseKey": "Escape",
+    "CameraSpeed": 5,
+    "TooltipScale": 1.5
+  },
+  "Audio": {
+    "MasterVolume": 0,
+    "SfxVolume": 0.65,
+    "MusicVolume": 0.615,
+    "Muted": true,
+    "EffectiveSfxVolume": 0,
+    "EffectiveMusicVolume": 0
+  },
+  "UI": {
+    "ShowHUD": true,
+    "ShowDebugPanel": false,
+    "Language": "de"
+  }
+}

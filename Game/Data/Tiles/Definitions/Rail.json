@@ -1,0 +1,22 @@
+{
+  "id": "rail",
+  "tileType": "Rail",
+  "properties": {
+    "buildable": false,
+    "movementCost": 0.5,
+    "fertility": 0.0,
+    "resourceProduction": [],
+    "allowedBuildings": ["signal", "station"],
+    "terrain": "infrastructure",
+    "passable": true
+  },
+  "rendering": {
+    "color": "#654321",
+    "texture": "rail_tile"
+  },
+  "gameplay": {
+    "constructionCost": 100,
+    "maintenanceCost": 5,
+    "maxBuildings": 1
+  }
+}

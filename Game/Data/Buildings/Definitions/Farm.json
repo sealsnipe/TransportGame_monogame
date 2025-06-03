@@ -1,0 +1,46 @@
+{
+  "id": "farm",
+  "name": "Farm",
+  "description": "Produces grain from farmland. Requires farmland terrain to operate efficiently.",
+  "category": "resource",
+  "size": {
+    "width": 2,
+    "height": 2,
+    "shape": "rectangle"
+  },
+  "cost": 1000,
+  "construction_time": 8.0,
+  "placement_rules": {
+    "allowed_terrain": ["Farmland", "Grass"],
+    "forbidden_terrain": ["Water", "Mountain", "Desert"],
+    "requires_road_access": false,
+    "min_distance_to_water": 0,
+    "max_distance_to_road": 10,
+    "buildable": true
+  },
+  "production": {
+    "input_resources": [],
+    "output_resources": [
+      {
+        "resource_type": "grain",
+        "amount": 1
+      }
+    ],
+    "production_rate": 1.0,
+    "efficiency": 1.0,
+    "power_required": 0
+  },
+  "storage": {
+    "input_capacity": 0,
+    "output_capacity": 100,
+    "accepted_resources": [],
+    "stored_resources": ["grain"]
+  },
+  "visual": {
+    "color": "#8B4513",
+    "texture": null,
+    "animation": null,
+    "smoke_effect": false
+  },
+  "rotation_allowed": true
+}

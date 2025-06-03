@@ -1,0 +1,22 @@
+{
+  "id": "hills",
+  "tileType": "Hills",
+  "properties": {
+    "buildable": true,
+    "movementCost": 1.3,
+    "fertility": 0.5,
+    "resourceProduction": [],
+    "allowedBuildings": ["farm", "windmill", "depot"],
+    "terrain": "hills",
+    "passable": true
+  },
+  "rendering": {
+    "color": "#A9A9A9",
+    "texture": "hills_tile"
+  },
+  "gameplay": {
+    "constructionCost": 0,
+    "maintenanceCost": 0,
+    "maxBuildings": 1
+  }
+}
