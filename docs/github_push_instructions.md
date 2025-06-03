@@ -25,7 +25,7 @@ git init
 3. **Fügen Sie die Remote-URL hinzu**
 
 ```bash
-git remote add origin https://github.com/IHR-USERNAME/TransportGame_monogame.git
+git remote add origin https://github.com/sealsnipe/TransportGame_monogame.git
 ```
 
 4. **Fügen Sie alle Dateien zum Staging-Bereich hinzu**
@@ -52,7 +52,7 @@ git push -u origin main
 Lösung:
 ```bash
 git remote remove origin
-git remote add origin https://github.com/IHR-USERNAME/TransportGame_monogame.git
+git remote add origin https://github.com/sealsnipe/TransportGame_monogame.git
 ```
 
 ### Problem: Authentifizierungsfehler
@@ -69,4 +69,4 @@ git push origin main
 
 ## Überprüfung
 
-Nach dem erfolgreichen Push sollten Sie Ihre Dateien auf GitHub unter `https://github.com/IHR-USERNAME/TransportGame_monogame` sehen können.
+Nach dem erfolgreichen Push sollten Sie Ihre Dateien auf GitHub unter `https://github.com/sealsnipe/TransportGame_monogame` sehen können.

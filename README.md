@@ -40,7 +40,7 @@ Ein Transport Fever 2-inspiriertes Spiel mit 2D Top-Down Perspektive, entwickelt
 
 2. **Repository klonen**
    ```bash
-   git clone https://github.com/[USERNAME]/TransportGame_monogame.git
+   git clone https://github.com/sealsnipe/TransportGame_monogame.git
    cd TransportGame_monogame
    ```
 
